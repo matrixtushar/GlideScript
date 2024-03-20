@@ -1,0 +1,5 @@
+var inc = new GlideRecord('incident');
+inc.get('sys_id_of_the_incident');
+inc.state = '2';
+inc.setWorkflow(false);
+inc.update();
